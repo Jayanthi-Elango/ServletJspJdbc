@@ -4,14 +4,18 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+ 
+  	
+
   <servlet>
-  	<servlet-name>GetEmpDetailsController</servlet-name>
-  	<display-name>GetEmpDetailsController</display-name>
+  	<servlet-name>GetEmployeeInfoController</servlet-name>
+  	<display-name>GetEmployeeInfoController</display-name>
   	<description></description>
-  	<servlet-class>com.jayanthi.web.GetEmpDetailsController</servlet-class>
+  	<servlet-class>com.jayanthi.web.GetEmployeeInfoController</servlet-class>
   </servlet>
+  
   <servlet-mapping>
-  	<servlet-name>GetEmpDetailsController</servlet-name>
-  	<url-pattern>/getEmpDetails</url-pattern>
+  	<servlet-name>GetEmployeeInfoController</servlet-name>
+  	<url-pattern>/getEmployeeInfo</url-pattern>
   </servlet-mapping>
 </web-app>
